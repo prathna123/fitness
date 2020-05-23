@@ -1,0 +1,522 @@
+
+/* html,
+body,
+.view {
+  height: 100%;
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+} */
+
+/* @media (max-width: 740px) {
+  html,
+  body,
+  .view {
+    height: 1000px;
+    font-weight: lighter;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  .view {
+    height: 650px;
+    font-weight: lighter;
+  }
+} */
+
+
+/*
+@media (min-width: 400px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+     background: #1C2331!important;
+  }
+} */
+
+
+/* Navbar animation */
+/* .navbar-brand{
+  margin: 0px;
+} */
+ .navbar {
+  /* margin: 0px; */
+  font-size: 15px;
+  letter-spacing: 1px;
+ 
+}
+/*
+.top-nav-collapse {
+  background-color: #1C2331; 
+} */
+
+/* Adding color to the Navbar on mobile */
+/* @media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331; 
+  }
+} */
+
+
+
+/* header css starts */
+
+
+/* .logo {
+    line-height: 40px;
+    position: fixed;
+    float: left;
+    margin: -30px 36px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 40px;
+}
+
+nav ul {
+    line-height: 40px;
+    list-style: none;
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+} */
+/* 
+nav.black ul  {
+    background: rgba(255, 255, 255, 1);
+}
+nav.black ul li a {
+    color: black;
+}
+a.black{
+    color: black;
+}
+span.black{
+    color: black;
+} */
+
+
+/* nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+} */
+
+/* .menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #fff;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #000;
+    display: none;
+} */
+
+/* @media(max-width: 786px) { */
+
+    /* .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    } */
+
+    /* nav ul {
+          max-height: 0px;
+          background: #fff;
+    } */
+
+    /* nav.black ul {
+          background: #fff;
+    }
+
+    .showing {
+          max-height: 34em;
+    } */
+
+    /* nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    } */
+
+    /* .menu-icon {
+          display: block;
+    } */
+
+/* } */
+
+/* header css ends */
+
+/* quiz form css starts */
+
+/*.form-img{
+   padding:3em;
+  width: 650px;
+  height: 620px; */
+  /* top: 3em; */
+  /* left: 15em; */
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+}*/
+/* .login-form{
+    width: 480px;
+    top: 35em;
+    left: 29em;
+    background: #f1f1f1;
+    height: 500px;
+    position: absolute;
+  } */
+  
+  /* h1{
+    text-align: center;
+    margin-top: 2em;
+    
+  } */
+
+  .masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+
+  .answer__input {
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      width: 1px;
+      height: 1px;
+      position: absolute;
+      outline:none !important;
+  }
+  
+  .answer__label {
+      width: 170px;
+      border: 1px solid #000;
+      border-radius: 6px;
+      line-height: 56px;
+      font-size: 15px;
+      color: #000;
+      text-align:center;
+      font-weight: 600;
+  }
+  
+  .answer {
+    
+    padding:10px;
+    
+  }
+
+  .answer__input:checked + .answer__label{
+    border-color:#5861af;
+    color:#14152C;
+    box-shadow: 0px 0px 1px 4px rgba(88,97,175, 0.2)
+  }
+  
+  .answer__input:checked + .answer__label .answer__tick{
+    opacity:1;
+    visibility:visible;
+    box-shadow: 0px 0px 1px 4px rgba(88,97,175, 0.2)
+
+  }
+  .answer__label:hover{
+      color: rgba(255, 255, 255, 1);
+      background: #5861af;
+      cursor: pointer;
+      box-shadow: 0px 0px 1px 4px rgba(88,97,175, 0.2)
+
+  }
+  
+  /* .answer__char {
+      line-height: 24px;
+      display: inline-block;
+      width: 26px;
+      text-align: center;
+      font-size: 13px;
+      border-radius: 4px;
+      color: #c8cae0;
+      border: 1px solid #c8cae0;
+      font-weight: 600;
+      vertical-align: middle;
+      margin-right: 15px;
+  } */
+  .answer__tick {
+      display: inline-block;
+      vertical-align: middle;
+      background-color: #5861af;
+      margin-left: 20px;
+      line-height: 14px;
+      border-radius: 50%;
+      padding: 4px;
+      opacity:0;
+      visibility:hidden;
+  }
+  
+  .answer__tick path{
+    fill:#fff
+  }
+
+  .cont{
+    
+    /* margin-top: 3em ; */
+    /* margin-bottom: 1em; */
+  
+    width: 40%;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    background: linear-gradient(120deg,#3498db,#8e44ad,#3498db);
+    /* background-size: 100%; */
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+  .cont:hover{
+    background-position: right;
+  }
+  
+  .bottom-text{
+    
+    font-size: 15px;
+  }
+  .bottom-text:hover{
+      text-decoration: underline;
+  }
+  /* quiz form css ends */
+
+  /* testimonials css starts */
+  
+  .testimonial-section{
+    /* background: #f1f1f1; */
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .inner-width{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  .testimonial-section h1{
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .testimonial-pics{
+    padding: 40px 0;
+  }
+  
+  .testimonial-pics img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 20px;
+    filter: grayscale(100%);
+    transition: .3s;
+    cursor: pointer;
+  }
+  
+  .testimonial-pics img:hover, .testimonial-pics img.active{
+    filter: none;
+  }
+  
+  
+  .testimonial-contents{
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .testimonial{
+    display: none;
+  }
+  
+  .testimonial.active{
+    display: block;
+  }
+  
+  .testimonial p{
+    font-size: 18px;
+    color: #5c5c5c;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial .description{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+  }
+
+  /* testimonials css ends */
+
+/* measurement form css starts*/
+/* .button-box{
+    display: flex;
+    width: 220px;
+    margin:0px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: black;
+}
+#bt{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-form{
+    width: 450px;
+    background: #f1f1f1;
+    height: 580px;
+    padding: 80px 40px;
+    border-radius: 0px;
+    position: absolute;
+    top: 450px;
+    left: 550px;
+    transition: .5s; 
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    color: black;
+    background: transparent;
+ 
+}
+#metric input:nth-of-type(1){
+    
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5px 5px;
+    transform: translate(0%,100%);
+   
+}
+#metric input:nth-of-type(2){
+    
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5px 5px;
+    transform: translate(0%,100%);
+}
+#metric input:nth-of-type(3){
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5px 5px;
+    transform: translate(0%,100%);
+   
+}
+#metric input:nth-of-type(4){
+    background-size:contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 5px 5px;
+    transform: translate(0%,100%);
+}
+
+#imperial input:nth-of-type(1){
+  background-size:contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 5px 5px;
+  transform: translate(0%,100%);
+}
+#imperial input:nth-of-type(2){
+  background-size:contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 5px 5px;
+  
+  transform: translate(0%,100%);
+}
+#3imperial input:nth-of-type(3){
+  
+  background-size:contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 5px 5px;
+  transform: translate(0%,60%);
+}
+.form-inline input{
+
+  display: inline-flex;
+  
+  
+}
+#imperial input:nth-of-type(4){
+  background-size:contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 5px 5px;
+  transform: translate(0%,100%);
+}
+#imperial input:nth-of-type(5){
+  background-size:contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 15px 15px;
+  
+  transform: translate(0%,110%);
+} 
+
+.submit-btn{
+    width: 55%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 90px 90px;
+    color: white;
+    background: linear-gradient( 120deg,#3498db,#8e44ad,#3498db);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}*/
+/* measurements form css ends */
