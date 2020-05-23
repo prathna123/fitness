@@ -520,3 +520,13 @@ nav ul li a {
     border-radius: 30px;
 }*/
 /* measurements form css ends */
+.lakhan
+{
+  width: 500px
+}
+@media (min-width: 150px) and (max-width: 850px) {
+  .lakhan
+  {
+    width: 300px;
+  }
+} 
