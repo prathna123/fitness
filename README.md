@@ -1,2 +1,2 @@
-# fitness- an aweosme webiste
+# Fitness- an awesome webiste
 html,css,js
